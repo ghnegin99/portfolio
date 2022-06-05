@@ -46,11 +46,7 @@ const btnScrollRight = document.querySelector('.scroll-btn-right');
 
 
 function scrollHorizontally(val) {
-    // if (window.innerWidth >= 481 && window.innerWidth <= 768) {
-    //     scrollAmount = document.querySelectorAll('.project')[0].offsetWidth;
-    // } else {
-    //     scrollAmount = 320;
-    // }
+
 
     currentScrollPosition += (val * scrollAmount);
 
