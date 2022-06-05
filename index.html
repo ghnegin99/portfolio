@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <a name="top"></a>
+    <!-- start header part -->
+    <header class="header">
+        <a href="#top">
+            <h3 class="pageTitle">صفحه نخست</h3>
+        </a>
+        <nav class="headerNav">
+            <ul class="header-ul">
+                <a href="#aboutMe-section">
+                    <li class="header-li">درباره من</li>
+                </a>
+                <a href="#projects-section">
+                    <li class="header-li" id="li-projects">پروژه ها
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024"
+                            height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z">
+                            </path>
+                        </svg>
+                        <div class="projects-menu">
+                            <ul class="projects-menu-list">
+                                <a href="https://github.com/ghnegin99/calculator" target="_blank">
+                                    <li class="projects-menu-item">ماشین حساب</li>
+                                </a>
+                                <a href="https://github.com/ghnegin99/TodoList" target="_blank">
+                                    <li class="projects-menu-item">TODO List</li>
+                                </a>
+                                <a href="https://github.com/ghnegin99/weather-forecast" target="_blank">
+                                    <li class="projects-menu-item">هواشناسی</li>
+                                </a>
+
+                            </ul>
+                        </div>
+                    </li>
+                </a>
+                <a href="#">
+                    <li class="header-li">وبلاگ شخصی</li>
+                </a>
+                <a href="#contact-section">
+                    <li class="header-li">ارتباط‌‌ ‌با من</li>
+                </a>
+                <!-- hamburger-menu
+                <button class="hamburger-menu-btn">
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em"
+                        width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+                        </path>
+                    </svg>
+                </button>
+                <div class="hamburger-menu">
+                    <button class="close-hamburger-menu">
+                        <svg class="close-hamburger-menu-icon" stroke="currentColor" fill="currentColor"
+                            stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M278.6 256l68.2-68.2c6.2-6.2 6.2-16.4 0-22.6-6.2-6.2-16.4-6.2-22.6 0L256 233.4l-68.2-68.2c-6.2-6.2-16.4-6.2-22.6 0-3.1 3.1-4.7 7.2-4.7 11.3 0 4.1 1.6 8.2 4.7 11.3l68.2 68.2-68.2 68.2c-3.1 3.1-4.7 7.2-4.7 11.3 0 4.1 1.6 8.2 4.7 11.3 6.2 6.2 16.4 6.2 22.6 0l68.2-68.2 68.2 68.2c6.2 6.2 16.4 6.2 22.6 0 6.2-6.2 6.2-16.4 0-22.6L278.6 256z">
+                            </path>
+                        </svg>
+                    </button>
+                    <ul class="hamburger-menu-list">
+
+                        <a href="#aboutMe-section">
+                            <li class="hamburger-menu-item">درباره من</li>
+                        </a>
+                        <a href="#projects-section">
+                            <li class="hamburger-menu-item">پروژه ها</li>
+                        </a>
+                        <a href="#">
+                            <li class="hamburger-menu-item">وبلاگ شخصی</li>
+                        </a>
+                        <a href="#contact-section">
+                            <li class="hamburger-menu-item">ارتباط با من</li>
+                        </a>
+                    </ul>
+                </div> -->
+            </ul>
+        </nav>
+        <!-- hamburger-menu -->
+        <button class="hamburger-menu-btn">
+            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em"
+                width="1em" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+                </path>
+            </svg>
+        </button>
+        <div class="hamburger-menu">
+            <button class="close-hamburger-menu">
+                <svg class="close-hamburger-menu-icon" stroke="currentColor" fill="currentColor" stroke-width="0"
+                    viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M278.6 256l68.2-68.2c6.2-6.2 6.2-16.4 0-22.6-6.2-6.2-16.4-6.2-22.6 0L256 233.4l-68.2-68.2c-6.2-6.2-16.4-6.2-22.6 0-3.1 3.1-4.7 7.2-4.7 11.3 0 4.1 1.6 8.2 4.7 11.3l68.2 68.2-68.2 68.2c-3.1 3.1-4.7 7.2-4.7 11.3 0 4.1 1.6 8.2 4.7 11.3 6.2 6.2 16.4 6.2 22.6 0l68.2-68.2 68.2 68.2c6.2 6.2 16.4 6.2 22.6 0 6.2-6.2 6.2-16.4 0-22.6L278.6 256z">
+                    </path>
+                </svg>
+            </button>
+            <ul class="hamburger-menu-list">
+
+                <a href="#aboutMe-section">
+                    <li class="hamburger-menu-item">درباره من</li>
+                </a>
+                <a href="#projects-section">
+                    <li class="hamburger-menu-item">پروژه ها</li>
+                </a>
+                <a href="#">
+                    <li class="hamburger-menu-item">وبلاگ شخصی</li>
+                </a>
+                <a href="#contact-section">
+                    <li class="hamburger-menu-item">ارتباط با من</li>
+                </a>
+            </ul>
+        </div>
+    </header>
+    <!-- end of header part -->
+
+    <!-- start first section -->
+    <section class="overview-section">
+        <div class="overview-div">
+            <p class="overview-paragraph">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از
+                طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی
+                تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه
+                درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای
+                طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان
+                امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل
+                حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+            </p>
+            <button class="overview-btn"> بیشتر بخوانید<svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                    viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M7.854 4.646a.5.5 0 010 .708L5.207 8l2.647 2.646a.5.5 0 01-.708.708l-3-3a.5.5 0 010-.708l3-3a.5.5 0 01.708 0z"
+                        clip-rule="evenodd"></path>
+                    <path fill-rule="evenodd" d="M4.5 8a.5.5 0 01.5-.5h6.5a.5.5 0 010 1H5a.5.5 0 01-.5-.5z"
+                        clip-rule="evenodd"></path>
+                </svg>
+
+            </button>
+        </div>
+    </section>
+    <!-- end first section -->
+
+
+    <!-- start second section -->
+    <section class="aboutMe-section" id="aboutMe-section">
+        <div class="aboutMe-img slide-in">
+            <img src="./img2.jpg" alt="">
+        </div>
+        <div class="aboutMe-div slide-in">
+            <h3 class="aboutMe-title">درباره <span>من</span></h3>
+            <h5 class="aboutMe-career">علاقه مند به برنامه نویسی</h5>
+            <p class="aboutMe-description">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از
+                طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی
+                تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه
+                درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای
+                طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد...
+            </p>
+        </div>
+    </section>
+    <!-- end second section -->
+
+    <!-- start third section -->
+    <section class="projects-section" id="projects-section">
+
+        <div class="projects-div-title">
+            <h3 class="projects-title"> پروژه های <span>من</span></h3>
+        </div>
+
+        <div class="projects">
+
+
+            <div class="project">
+                <div class="project-content">
+                    <img src="./calculator.jpg" alt="" id="calculator">
+                    <p>ماشین حساب</p>
+                    <span>html&css&js</span>
+                </div>
+                <div class="project-overlay">
+                    <!-- github icon -->
+                    <a href="https://github.com/ghnegin99/calculator" target="_blank"><svg stroke="currentColor"
+                            fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9a127.5 127.5 0 0 1 38.1 91v112.5c.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z">
+                            </path>
+                        </svg></a>
+                    <span>سورس کد پروژه را در گیت هاب مشاهده کنید!</span>
+
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-content">
+                    <img src="./todolist.jpg" alt="">
+                    <p>TODO LIST</p>
+                    <span>html&css&js</span>
+                </div>
+                <div class="project-overlay">
+                    <!-- github icon -->
+                    <a href="https://github.com/ghnegin99/TodoList" target="_blank"><svg stroke="currentColor"
+                            fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9a127.5 127.5 0 0 1 38.1 91v112.5c.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z">
+                            </path>
+                        </svg></a>
+                    <span>سورس کد پروژه را در گیت هاب مشاهده کنید!</span>
+
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-content">
+                    <img src="./weather-app.jpg" alt="" id="weather-app">
+                    <p> هواشناسی</p>
+                    <span>html&css&js</span>
+                </div>
+                <div class="project-overlay">
+                    <!-- github icon -->
+                    <a href="https://github.com/ghnegin99/weather-forecast" target="_blank"><svg stroke="currentColor"
+                            fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9a127.5 127.5 0 0 1 38.1 91v112.5c.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z">
+                            </path>
+                        </svg></a>
+                    <span>سورس کد پروژه را در گیت هاب مشاهده کنید!</span>
+
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-content">
+                    <img src="./restaurantproject.jpg" alt="" id="restaurant-project">
+                    <p>پروژه رستوران</p>
+                    <span>wordpress</span>
+                </div>
+                <div class="project-overlay">
+                    <!-- github icon
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em"
+                        width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9a127.5 127.5 0 0 1 38.1 91v112.5c.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z">
+                        </path>
+                    </svg> -->
+                    <a href="http://restaurantproject.ir/"><span> restaurantproject.ir</span></a>
+
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-content">
+                    <img src="./shoppingXd.png" alt="" id="shopping-design-project">
+                    <p>طراحی صفحه خرید</p>
+                    <span>Adobe XD</span>
+                </div>
+                <div class="project-overlay">
+                    <!-- github icon -->
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em"
+                        width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9a127.5 127.5 0 0 1 38.1 91v112.5c.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z">
+                        </path>
+                    </svg>
+                    <span>سورس کد پروژه را در گیت هاب مشاهده کنید!</span>
+
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-content">
+                    <img src="./uniTehXd.png" alt="" id="education-design-project">
+                    <p>طراحی سایت آموزشی</p>
+                    <span>Adobe XD</span>
+                </div>
+                <div class="project-overlay">
+                    <!-- github icon -->
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em"
+                        width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9a127.5 127.5 0 0 1 38.1 91v112.5c.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z">
+                        </path>
+                    </svg>
+                    <span>سورس کد پروژه را در گیت هاب مشاهده کنید!</span>
+
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-content">
+                    <img src="./restaurantXd.png" alt="" id="restaurant-design-project">
+                    <p>طراحی رستوران</p>
+                    <span>Adobe XD</span>
+                </div>
+                <div class="project-overlay">
+                    <!-- github icon -->
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em"
+                        width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9a127.5 127.5 0 0 1 38.1 91v112.5c.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z">
+                        </path>
+                    </svg>
+                    <span>سورس کد پروژه را در گیت هاب مشاهده کنید!</span>
+
+                </div>
+            </div>
+
+
+        </div>
+        <div class="scroll-btn">
+            <button onclick="scrollHorizontally(1)" class="scroll-btn-right"><svg stroke="currentColor"
+                    fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm154.7 454.5l-246 178c-5.3 3.8-12.7 0-12.7-6.5v-46.9c0-10.2 4.9-19.9 13.2-25.9L566.6 512 421.2 406.8c-8.3-6-13.2-15.6-13.2-25.9V334c0-6.5 7.4-10.3 12.7-6.5l246 178c4.4 3.2 4.4 9.8 0 13z">
+                    </path>
+                </svg></button>
+            <button onclick="scrollHorizontally(-1)" class="scroll-btn-left"><svg stroke="currentColor"
+                    fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm104 316.9c0 10.2-4.9 19.9-13.2 25.9L457.4 512l145.4 105.2c8.3 6 13.2 15.6 13.2 25.9V690c0 6.5-7.4 10.3-12.7 6.5l-246-178a7.95 7.95 0 0 1 0-12.9l246-178a8 8 0 0 1 12.7 6.5v46.8z">
+                    </path>
+                </svg></button>
+
+        </div>
+    </section>
+    <!-- end third section -->
+
+
+    <!-- start fourth section(contact form) -->
+    <section class="contact-section" id="contact-section">
+        <div class="contactDiv">
+
+            <div class="contactDiv-title">
+                <h3 class="contact-title"> ارتباط با <span>من</span></h3>
+            </div>
+
+            <div class="contact-infos">
+                <div class="contact-info">
+                    <div class="contact-info-icon">
+                        <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
+                            stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M15.05 5A5 5 0 0 1 19 8.95M15.05 1A9 9 0 0 1 23 8.94m-1 7.98v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="contact-info-values">
+                        <p class="contact-info-title">شماره تماس</p>
+                        <span class="contact-info-value">989301234567+</span>
+                    </div>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-info-icon">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024"
+                            height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9a127.5 127.5 0 0 1 38.1 91v112.5c.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="contact-info-values">
+                        <p class="contact-info-title">گیت هاب</p>
+                        <a href="https://github.com/ghnegin99" target="_blank"> <span class="contact-info-value"></span>
+                            لینک گیت هاب
+                            </span></a>
+                    </div>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-info-icon">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24"
+                            height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <title></title>
+                            <path
+                                d="M24 4.5v15c0 .85-.65 1.5-1.5 1.5H21V7.387l-9 6.463-9-6.463V21H1.5C.649 21 0 20.35 0 19.5v-15c0-.425.162-.8.431-1.068C.7 3.16 1.076 3 1.5 3H2l10 7.25L22 3h.5c.425 0 .8.162 1.069.432.27.268.431.643.431 1.068z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="contact-info-values">
+                        <p class="contact-info-title">ایمیل</p>
+                        <span class="contact-info-value">me@example.com</span>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- end fourth section(contact form) -->
+
+
+    <!-- start footer section -->
+    <footer class="footer-section">
+        <div class="footer-info">
+            <p class="footer-name">طراحی شده توسط <span>نگین قاسمی</span></p>
+            <p class="footer-alrights">تمامی حقوق محفوظ است <span>&#128516;</span></p>
+            <div class="footer-social-media">
+                <!-- whatsapp icon -->
+                <svg id="whatsapp-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512"
+                    height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z">
+                    </path>
+                </svg>
+                <!-- github icon -->
+                <svg id="github-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024"
+                    height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9a127.5 127.5 0 0 1 38.1 91v112.5c.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z">
+                    </path>
+                </svg>
+                <!-- telegram icon -->
+                <svg id="telegram-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 496 512"
+                    height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.8 169.9l-40.7 191.8c-3 13.6-11.1 16.9-22.4 10.5l-62-45.7-29.9 28.8c-3.3 3.3-6.1 6.1-12.5 6.1l4.4-63.1 114.9-103.8c5-4.4-1.1-6.9-7.7-2.5l-142 89.4-61.2-19.1c-13.3-4.2-13.6-13.3 2.8-19.7l239.1-92.2c11.1-4 20.8 2.7 17.2 19.5z">
+                    </path>
+                </svg>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer section -->
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
