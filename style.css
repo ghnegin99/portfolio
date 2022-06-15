@@ -9,6 +9,7 @@
 
 html,
 body {
+
     max-width: 100%;
     overflow-x: hidden;
 }
@@ -1632,13 +1633,13 @@ header {
 
 
 
-    /* .scroll-btn,
+    .scroll-btn,
     .scroll-btn-left,
     .scroll-btn-right {
         display: none;
-    } */
+    }
 
-    .scroll-btn {
+    /* .scroll-btn {
 
         width: 100%;
         height: 10%;
@@ -1664,7 +1665,7 @@ header {
     .scroll-btn .scroll-btn-left,
     .scroll-btn-right:hover {
         cursor: pointer;
-    }
+    } */
 
 
 
@@ -1688,7 +1689,7 @@ header {
         color: rgb(253, 80, 108);
     }
 
-    /* .projects {
+    .projects {
 
         border-radius: 40px;
         width: 100%;
@@ -1702,7 +1703,7 @@ header {
         position: relative;
         overflow-x: scroll;
         overflow-y: hidden;
-    } */
+    }
 
     /* .projects {
 
@@ -1722,7 +1723,7 @@ header {
 
     } */
 
-    .projects {
+    /* .projects {
 
         border-radius: 40px;
         width: 100%;
@@ -1732,13 +1733,12 @@ header {
         display: grid;
         grid-auto-flow: column;
         grid-auto-columns: 100%;
-        /* grid-column-gap: 40px; */
         grid-column-gap: 30px;
         position: relative;
         overflow: hidden;
         padding-right: 10px;
 
-    }
+    } */
 
 
     .project {
